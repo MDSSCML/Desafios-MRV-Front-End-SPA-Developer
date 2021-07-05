@@ -51,7 +51,3 @@ let marlene = 225;
 <<<<<<< HEAD:Quanta Mandioca.html
 let total = (chico + bento + bernardo + marina + iara + marlene); // Digite aqui o calculo total
 console.log(total);
-=======
-let total = (chico + bento + bernardo + marina + iara) + marlene; // Digite aqui o calculo total
-console.log(total);
->>>>>>> 9fab7dce7c67cfdab2cc17f6501593157b36f378:Quanta Mandioca.js
