@@ -22,9 +22,7 @@ Exemplo de Entrada	Exemplo de Saída
 
 let positivos = 0;
 for (var i = 0 ; i <= 6; i++) {
- var valor = parseInt(gets());
-if (valor > 0){
-positivos++;
-}
+var valor = parseInt(gets());
+ valor > 0 ? positivos++ : true;
 }
 console.log(positivos + ' valores positivos');
