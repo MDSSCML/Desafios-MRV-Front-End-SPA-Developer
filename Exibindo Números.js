@@ -15,7 +15,6 @@ Exemplo de Entrada	Exemplo de Saída
 6
 
 
-let num = parseInt(gets());
-for(cont = 1; cont <= num; cont++){
-  cont %2 == 0 ? console.log(cont) :"Márcio Trovão";
-}
+let num = + gets();
+for(cont = 2; cont <= num ; cont += 2) 
+console.log(`${cont}`);
