@@ -19,9 +19,6 @@ carne laranja picles suco
 laranja pera
 
  
-let totalItems = gets();
-
-for (var i = 0; i < totalItems; i++) {
-  let itensOrdenados = gets().split(" ").sort();
-  console.log([...new Set(itensOrdenados)].join(" "));
+for (var i = 0, totalItems = gets(); i < totalItems; i++) {
+  console.log([...new Set(gets().split(" ").sort())].join(" "));
 }
