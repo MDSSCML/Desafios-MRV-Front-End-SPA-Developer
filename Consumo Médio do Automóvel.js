@@ -26,9 +26,9 @@ Exemplo de Entrada	Exemplo de Saída
 
 
 
-var x = parseInt(gets());
-  var y = parseFloat(gets());
+x = gets();
+  y = gets();
+   _consumo = {x};
+   __consumo = {y};
+   console.log((_consumo.x /__consumo.y).toFixed(3) + " km/l");
   
-  let consumo = (x,y) => x/y;
-  console.log(consumo(x,y).toFixed(3) + " km/l");
-
